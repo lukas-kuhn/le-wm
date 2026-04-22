@@ -14,4 +14,4 @@ export STABLEWM_HOME=/mnt/vast/workspaces/LeVJEPA/data
 
 nvidia-smi
 
-uv run python train.py data=pusht "$@"
+srun uv run python train.py data=pusht "$@"

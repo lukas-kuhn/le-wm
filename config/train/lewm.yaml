@@ -17,6 +17,7 @@ trainer:
   max_epochs: 100
   devices: auto
   accelerator: gpu
+  strategy: ddp
   precision: bf16
   gradient_clip_val: 1.0
 
