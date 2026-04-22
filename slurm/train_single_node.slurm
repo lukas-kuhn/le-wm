@@ -10,6 +10,6 @@
 #SBATCH --output=logs/%j.out
 #SBATCH --error=logs/%j.err
 
-export STABLEWM_HOME=/mnt/vast/LeVJEPA/data
+export STABLEWM_HOME=/mnt/vast/workspaces/LeVJEPA/data
 
 uv run python train.py data=pusht "$@"
